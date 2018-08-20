@@ -1,3 +1,40 @@
+# y_streamer_plugin
+
+Extra features to make YSI work with common plugins.  This adds inline callbacks to the streamer plugin.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_streamer_plugin-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Extra/y_streamer_plugin)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Extra/y_streamer_plugin
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Extra/y_streamer_plugin>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Extra/y_streamer_plugin/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Extra/y_streamer_plugin/features.md) - More features and examples.
+* [FAQs](YSI-Extra/y_streamer_plugin/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Extra/y_streamer_plugin/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Extra/y_streamer_plugin/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_streamer_plugin
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_streamer_plugin-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Extra/y_streamer_plugin)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Extra/y_streamer_plugin
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Extra/y_streamer_plugin>
-```
-
-## Usage
-
-[Click Here] (YSI-Extra/y_streamer_plugin.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
