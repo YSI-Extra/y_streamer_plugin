@@ -1,0 +1,9 @@
+{
+	"user": "YSI-Extra",
+	"repo": "y_streamer_plugin",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+	]
+}
+
